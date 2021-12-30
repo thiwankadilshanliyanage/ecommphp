@@ -96,3 +96,17 @@
     left: 450px;
 }
 
+.logeye{
+    position: absolute;
+    right: 15px;
+    transform: translate(0,50%);
+    top:23%;
+    cursor: pointer;
+}
+.regieye{
+    position: absolute;
+    right: 15px;
+    top:44%;
+    transform: translate(0,50%);
+    cursor: pointer;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login and Registration</title>
     <link rel="stylesheet" href="style.css">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="hero">
@@ -18,7 +19,10 @@
             <!--login-->
             <form id="login" class="input-group">
                 <input type="email" class="input-field" placeholder="Enter your email" required><br>
-                <input type="password" class="input-field" placeholder="Enter your password" required><br>
+
+                <input id = "password" type="password" class="input-field" placeholder="Enter your password" required>
+                <span onclick="toggle()"><i class="fa fa-eye logeye" aria-hidden="true"></span></i> <br>
+
                 <input type="checkbox" name="checkbox" class="check-box">
                 <label for="checkbox" class="label">Remember me</label>
                 <button type="submit" class="submit-btn">Login</button>
@@ -28,7 +32,10 @@
             <form id="register" class="input-group">
                 <input type="text" class="input-field" placeholder="Enter your name" required><br>
                 <input type="email" class="input-field" placeholder="Enter your email" required><br>
-                <input type="password" class="input-field" placeholder="Enter your password" required><br><br><br>
+
+                <input type="password" id = "passwordr" class="input-field" placeholder="Enter your password" required>
+                <span onclick="toggler()"><i class="fa fa-eye regieye" aria-hidden="true"></i></span><br><br><br>
+
               <!--  <input type="checkbox" name="checkbox" class="check-box">  
                 <label for="checkbox" class="label">Remember me</label> -->
                 <button type="submit" class="submit-btn regi">Register</button>
