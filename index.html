@@ -11,10 +11,30 @@
     <div class="hero">
         <div class="form-box">
             <div class="button-box">
-                <button type="button" class="toggle-btn">Login</button>
-                <button type="button" class="toggle-btn">Register</button>
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
             </div>
+            <!--login-->
+            <form id="login" class="input-group">
+                <input type="email" class="input-field" placeholder="Enter your email" required><br>
+                <input type="password" class="input-field" placeholder="Enter your password" required><br>
+                <input type="checkbox" name="checkbox" class="check-box">
+                <label for="checkbox" class="label">Remember me</label>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+
+            <!--Register-->
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Enter your name" required><br>
+                <input type="email" class="input-field" placeholder="Enter your email" required><br>
+                <input type="password" class="input-field" placeholder="Enter your password" required><br><br><br>
+              <!--  <input type="checkbox" name="checkbox" class="check-box">  
+                <label for="checkbox" class="label">Remember me</label> -->
+                <button type="submit" class="submit-btn regi">Register</button>
+            </form>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
