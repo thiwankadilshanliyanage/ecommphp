@@ -77,25 +77,20 @@
     outline: none;
     border-radius: 30px;
 }
-
 .check-box{
     margin: 30px 3px 30px 0;
 }
-
 .label{
     color: #777;
     font-size: 12px;
     bottom: 68px;
 }
-
 #login{
     left: 50px;
 }
-
 #register{
     left: 450px;
 }
-
 .logeye{
     position: absolute;
     right: 15px;
