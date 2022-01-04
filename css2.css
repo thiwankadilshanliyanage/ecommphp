@@ -160,3 +160,19 @@ body.active{
         top:150px;
     }
 }
+.logeye{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 15px;
+    transform: translate(0,50%);
+    top:47%;
+    cursor: pointer;
+}
+.regieye{
+    position: absolute;
+    right: 15px;
+    top:50%;
+    transform: translate(0,50%);
+    cursor: pointer;
+}

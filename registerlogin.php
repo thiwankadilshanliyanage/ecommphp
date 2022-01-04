@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css2.css">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
@@ -25,7 +26,8 @@
                 <form>
                     <h3>Sign In</h3>
                     <input type="text" placeholder="Username">
-                    <input type="password" placeholder="Password">
+                    <input type="password" id="pwin" placeholder="Password">
+                    <span onclick="toggle()"><i class="fa fa-eye logeye" aria-hidden="true"></span></i>
                     <input type="submit" value="Sign in">
                     <a href="#" class="forgot">Forgot Password</a>
                 </form>
@@ -36,7 +38,8 @@
                     <h3>Sign Up</h3>
                     <input type="text" placeholder="Username">
                     <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
+                    <input type="password" id="pwup" placeholder="Password">
+                    <span onclick="toggler()"><i class="fa fa-eye regieye" aria-hidden="true"></i></span>
                     <input type="password" placeholder="Confirm Password">
                     <input type="submit" value="Sign up">
                     
@@ -59,5 +62,6 @@
             body.classList.remove('active')
         }
     </script>
+    <script src="app2.js"></script>
 </body>
 </html>
