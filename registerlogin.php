@@ -20,6 +20,7 @@
             </div>
         </div>
         <div class="formBx">
+            <!--Signin-->
             <div class="form signinForm">
                 <form>
                     <h3>Sign In</h3>
@@ -27,6 +28,18 @@
                     <input type="password" placeholder="Password">
                     <input type="submit" value="Sign in">
                     <a href="#" class="forgot">Forgot Password</a>
+                </form>
+            </div>
+            <!--Signup-->
+            <div class="form signupForm">
+                <form>
+                    <h3>Sign Up</h3>
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirm Password">
+                    <input type="submit" value="Sign up">
+                    
                 </form>
             </div>
         </div>
