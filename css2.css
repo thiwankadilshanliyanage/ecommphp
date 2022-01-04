@@ -139,12 +139,24 @@ body.active{
     .container .blueBg{
         top: 0;
         height: 100%;
-        height: 500px;
     }
     .formBx{
         width: 100%;
-        height: 500px;
+        height: 500px; 
         top:0;
         box-shadow: none;
+    }
+    .blueBg .box{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+    }
+    .box.signin{
+        top: 0;
+    }
+    .formBx.active{
+        left: 0;
+        top:150px;
     }
 }
