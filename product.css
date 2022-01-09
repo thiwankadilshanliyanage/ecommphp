@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
 body{
-    display: flex;
+    
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -17,11 +19,32 @@ body{
     background: #fff;
     padding: 25px 30px;
     border-radius: 5px;
+    margin-top: 100px;
 }
 .pic{
     width:150px;
     height:150px;
     background:white;
     border: dashed;
+    
+}
+nav{
+    background: rgb(231, 21, 119);
+    height: 40px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 35px;
+    margin: 0 5px;
+}
+.logoimg{
+    height: 60px;
+    width: 75px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 5px;
     
 }
