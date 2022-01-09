@@ -7,22 +7,31 @@
     <title>Add product</title>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" type="text/css" href="product.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
   <!-- Nav bar -->
-  <nav>
-    <img class="logoimg" src="pic/logo.png"> 
-    <label class="logo">Logo</label>
-    <ul>
-      <li><a href="#">Dash bord</a></li>
-      <li><a href="#">Product</a></li>
-      <li><a href="#">Reports</a></li>
-      <li><a href="#">Orders</a></li>
-      <li><a href="#">Profile</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <input id="nav-toggle" type="checkbox">
+      <div class="logo">MINZ<strong>CODE</strong></div>
+      <ul class="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+    </nav>
+  </header>
 
      <div class="container">
     <form class="form-horizontal">
