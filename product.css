@@ -15,7 +15,7 @@ body{
 .container{
     max-width: 700px;
     width: 100%;
-    background: rgb(11, 192, 224);
+    background: #3e65da;
     padding: 25px 30px;
     border-radius: 5px;
     margin-top: 200px;
@@ -24,8 +24,8 @@ body{
     width:150px;
     height:150px;
     background:white;
-    border: dashed;
-
-    
+    border: dashed;   
 }
-
+.lab{
+    color: #fff;
+}

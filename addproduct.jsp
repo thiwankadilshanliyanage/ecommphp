@@ -17,13 +17,13 @@
   <header>
     <nav>
       <input id="nav-toggle" type="checkbox">
-      <div class="logo">MINZ<strong>CODE</strong></div>
+      <div class="logo">Online<strong>Shopping</strong></div>
       <ul class="links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home">Dash Board</a></li>
+        <li><a href="#about">Orders</a></li>
+        <li><a href="#work">Reports</a></li>
+        <li><a href="#projects">Profile</a></li>
+        <li><a href="#contact">Products</a></li>
       </ul>
       <label for="nav-toggle" class="icon-burger">
         <div class="line"></div>
@@ -39,7 +39,7 @@
         
         <!-- Text input-->
         <div class="form-group">
-          <label class="col-md-4 control-label" for="product_name">PRODUCT NAME</label>  
+          <label class="col-md-4 control-label lab" for="product_name">PRODUCT NAME</label>  
           <div class="col-md-4">
           <input id="product_name" name="product_name" placeholder="PRODUCT NAME" class="form-control input-md" required="" type="text">
             
@@ -47,14 +47,14 @@
         </div>
         <!-- Text input-->
         <div class="form-group">
-            <label class="col-md-4 control-label" for="product_brand">PRODUCT BRAND</label>  
+            <label class="col-md-4 control-label lab" for="product_brand">PRODUCT BRAND</label>  
             <div class="col-md-4">
             <input id="product_name" name="product_name" placeholder="PRODUCT BRAND" class="form-control input-md" required="" type="text">  
             </div>
         </div>
         <!-- Select Basic -->
         <div class="form-group">
-          <label class="col-md-4 control-label" for="product_categorie">PRODUCT CATEGORY</label>
+          <label class="col-md-4 control-label lab" for="product_categorie">PRODUCT CATEGORY</label>
           <div class="col-md-4">
             <select id="product_categorie" name="product_categorie" class="form-control">
             </select>
@@ -62,7 +62,7 @@
         </div>
         <!-- Text input-->
         <div class="form-group">
-          <label class="col-md-4 control-label" for="available_quantity">QUANTITY</label>  
+          <label class="col-md-4 control-label lab" for="available_quantity">QUANTITY</label>  
           <div class="col-md-4">
           <input id="available_quantity" name="available_quantity" placeholder="QUANTITY" class="form-control input-md" required="" type="text">
             
@@ -71,7 +71,7 @@
         
         <!-- Textarea -->
         <div class="form-group">
-          <label class="col-md-4 control-label" for="product_description">PRODUCT DESCRIPTION</label>
+          <label class="col-md-4 control-label lab" for="product_description">PRODUCT DESCRIPTION</label>
           <div class="col-md-4">                     
             <textarea class="form-control" id="product_description" name="product_description"></textarea>
           </div>
@@ -79,14 +79,14 @@
         
         <!-- Text input-->
         <div class="form-group">
-          <label class="col-md-4 control-label" for="price">PRICE</label>  
+          <label class="col-md-4 control-labe lab" for="price">PRICE</label>  
           <div class="col-md-4">
           <input id="Price" name="approuved_by" placeholder="PRICE" class="form-control input-md" required="" type="number">
             
          <br>
         <!-- File Button --> 
         <div class="form-group">
-          <label class="col-md-4 control-label" for="filebutton">PRODUCT IMAGE</label>
+          <label class="col-md-4 control-label lab" for="filebutton">PRODUCT IMAGE</label>
           <div class="col-md-4">
             <input id="filebutton" name="filebutton" class="input-file" type="file">
           </div>
