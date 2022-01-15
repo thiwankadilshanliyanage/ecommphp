@@ -23,7 +23,7 @@
         <div class="formBx">
             <!--Signin-->
             <div class="form signinForm">
-                <form>
+                <form id="signinform">
                     <h3>Sign In</h3>
                     <input type="text" placeholder="Username">
                     <input type="password" id="pwin" placeholder="Password">
@@ -34,7 +34,7 @@
             </div>
             <!--Signup-->
             <div class="form signupForm">
-                <form>
+                <form id="signupform">
                     <h3>Sign Up</h3>
                     <input type="text" placeholder="Username">
                     <input type="email" placeholder="Email">
@@ -61,6 +61,16 @@
             formBx.classList.remove('active')
             body.classList.remove('active')
         }
+
+        var form = document.getElementById("signupform");
+        function handleForm(event) { event.preventDefault(); } 
+        form.addEventListener('submit', handleForm);
+
+        var form = document.getElementById("signinform");
+        function handleForm(event) { event.preventDefault(); } 
+        form.addEventListener('submit', handleForm);
+
+        
     </script>
     <script src="app2.js"></script>
 </body>
