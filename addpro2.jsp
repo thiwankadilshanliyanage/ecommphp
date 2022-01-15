@@ -5,8 +5,30 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link href="addpro2.css" rel="stylesheet" type="text/css">
+    <link href="nav.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+
+<!-- Nav bar -->
+<header>
+    <nav>
+      <input id="nav-toggle" type="checkbox">
+      <div class="logo">Online<strong>Shopping</strong></div>
+      <ul class="links">
+        <li><a href="#home">Dash Board</a></li>
+        <li><a href="#about">Orders</a></li>
+        <li><a href="#work">Reports</a></li>
+        <li><a href="#projects">Profile</a></li>
+        <li><a href="#contact">Products</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+    </nav>
+  </header>
+
   <div class="main-block">
     <div class="left-part">
       
@@ -19,25 +41,21 @@
         <h2>Add product here</h2>
       </div>
       <div class="info">
-        <input class="fname" type="text" name="name" placeholder="Full name">
-        <input type="text" name="name" placeholder="Email">
-        <input type="text" name="name" placeholder="Phone number">
-        <input type="password" name="name" placeholder="Password">
+        <input class="pname" type="text" name="name" placeholder="Product name">
+        <input class="pbrand" type="text" name="brand" placeholder="Product brand">
         <select>
-          <option value="course-type" selected>Course type*</option>
-          <option value="short-courses">Short courses</option>
-          <option value="featured-courses">Featured courses</option>
-          <option value="undergraduate">Undergraduate</option>
-          <option value="diploma">Diploma</option>
-          <option value="certificate">Certificate</option>
-          <option value="masters-degree">Masters degree</option>
-          <option value="postgraduate">Postgraduate</option>
+            <option value="course-type" selected>Product category*</option>
         </select>
+        <input class="qty" type="text" name="qty" placeholder="Quantity">
+        <input class="des" placeholder="Product description" name="des">
+
+        <input id="filebutton" name="filebutton" class="input-file" type="file">
+        <div class="pic">
+        </div>
+        
+        
       </div>
-      <div class="checkbox">
-        <input type="checkbox" name="checkbox"><span>I agree to the <a href="https://www.w3docs.com/privacy-policy">Privacy Poalicy for W3Docs.</a></span>
-      </div>
-      <button type="submit" href="/">Submit</button>
+      <button type="submit" href="/">Add Product</button>
     </form>
   </div>
 </body>

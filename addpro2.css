@@ -35,7 +35,7 @@
       .left-part {
       text-align: center;
       }
-      .fa-graduation-cap {
+      .fa-arrow-right {
       font-size: 72px;
       }
       form {
@@ -50,6 +50,14 @@
       display: flex;
       flex-direction: column;
       }
+      .pic{
+        width:150px;
+        height:150px;
+        background:black;
+        border: dashed;
+        border-color: white; 
+    }
+
       input, select {
       padding: 5px;
       margin-bottom: 30px;

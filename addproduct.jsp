@@ -56,7 +56,7 @@
         <div class="form-group">
           <label class="col-md-4 control-label lab" for="product_categorie">PRODUCT CATEGORY</label>
           <div class="col-md-4">
-            <select id="product_categorie" name="product_categorie" class="form-control">
+            <select id="product_categorie" aria-placeholder="pppp" name="product_categorie" class="form-control">
             </select>
           </div>
         </div>
